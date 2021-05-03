@@ -3,7 +3,7 @@ package colegio;
 public class Materia {
     private int idMateria;
     private String nombre;
-    private int año; //Para ahorrar memoria, ahora es un int corto.
+    private int año;
     
     public Materia (int id, String n, int a) {
         this.año = a;
@@ -20,7 +20,7 @@ public class Materia {
     }
     
     public int getAño () {
-        return año; //PUEDO USAR LA Ñ EN EL CÓDIGO! GRACIAS UTF-8! A LA MIERDA EL ASCII!
+        return año; //PUEDO USAR LA Ñ EN EL CÓDIGO! GRACIAS UTF-8!
     }
     
     public void cambiarID (int id) {
